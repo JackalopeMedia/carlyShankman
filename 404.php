@@ -11,5 +11,3 @@
 </ul>
 
 <?php get_search_form(); ?>
-
-<!-- THIS IS A TEST -->
