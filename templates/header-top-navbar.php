@@ -17,5 +17,34 @@
         endif;
       ?>
     </nav>
-  </div>
+  </div>    
 </header>
+
+<section id="above-the-fold">
+  <div class="wrap container">
+    <div class="row">
+      <div class="col-sm-8">
+        <h1>Peace love and kale</h1>
+        <h3>with Carly Shankman</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+          sed do eiusmod tempor incididunt ut labore 
+          et dolore magna aliqua.</p>
+        <button class="btn btn-default btn-lg">Subscribe</button>
+      </div>
+      <div class="col-sm-4">
+        <img src="http://placehold.it/360x250">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="logos">
+  <div class="wrap container" role="document">
+    <div class="row vert-align">
+      <img class="col-sm-3" src="http://placehold.it/160x48">
+      <img class="col-sm-3" src="http://placehold.it/160x48">
+      <img class="col-sm-3" src="http://placehold.it/160x48">
+      <img class="col-sm-3" src="http://placehold.it/160x48">
+    </div>
+  </div>
+</section>
