@@ -1,3 +1,64 @@
 /**************************************************************************/
 /* Layouts LESS */
 /**************************************************************************/
+
+/***********************/
+/* NavBar */
+/***********************/
+
+.navbar-default {
+  #gradient > .vertical(@start-color: lighten(@navbar-default-bg, 10%); @end-color: @navbar-default-bg);
+  .reset-filter(); // Remove gradient in IE<10 to fix bug where dropdowns don't get triggered
+  border-radius: @navbar-border-radius;
+  //background-image: none;
+  //background-color: #fff;
+}
+
+.navbar-brand,
+.navbar-nav > li > a {
+  text-shadow: 0 1px 0 rgba(255,255,255,.25);
+  @media (min-width: @screen-sm-min) {
+	  padding-top: 25px;
+	  float: right;
+  }
+}
+
+#menu-primary-navigation {
+  @media (min-width: @screen-sm-min) {
+    float: right; 
+  }
+}
+
+/***********************/
+/* Above the Fold */
+/***********************/
+
+.title-padding {
+	padding-top: 68px;
+}
+
+/***********************/
+/* Logos */
+/***********************/
+
+.logos-bg {
+	background-color: #3d3d3d;
+}
+
+.vert-align {
+	padding-bottom: 12px;
+	padding-top: 12px;
+	}
+
+/***********************/
+/* Footer CTA */
+/***********************/
+
+.footer-cta-padding {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.text-white {
+	color: #ffffff;
+}
